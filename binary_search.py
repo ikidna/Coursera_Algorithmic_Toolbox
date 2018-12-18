@@ -11,6 +11,9 @@ def linear_search(a, x):
             return i
     return -1
 
+
+
+
 if __name__ == '__main__':
     input = sys.stdin.read()
     data = list(map(int, input.split()))
